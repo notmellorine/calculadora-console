@@ -2,8 +2,6 @@ import promptSync from 'prompt-sync';
 
 const prompt= promptSync(); // Importa a função promptSync do módulo 'prompt-sync' e a atribui à variável prompt para permitir a entrada de dados pelo console.
 
-type operacao = 'soma' | 'subtração' | 'multiplicação' |'divisão'
-
 function calcular() {
     let numero1 = prompt('Digite o primeiro número: ');
     let numero2 = prompt('Digite o segundo número: ');
